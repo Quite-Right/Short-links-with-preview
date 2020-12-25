@@ -1,0 +1,11 @@
+@import "./Form/styles.scss";
+
+.main {
+  margin: 60px 0px;
+  padding: 20px 5px;
+  min-height: calc(100vh - 180px);
+  width: calc(100% - 10px);
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}

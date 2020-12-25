@@ -1,0 +1,20 @@
+.copy-btn {
+  cursor: pointer;
+  padding: 0px 8px;
+  display: flex;
+  align-items: center;
+  border: 1px solid  $content-grey;
+  border-radius: 2px;
+  margin: 4px 4px;
+  background: $white;
+}
+.copy-btn.active {
+  background-color: $light-grey;
+  // color: $white;
+}
+.copy-code {
+  margin-right: 8px;
+}
+.copy-svg {
+
+}

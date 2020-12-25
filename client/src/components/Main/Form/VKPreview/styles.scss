@@ -1,0 +1,49 @@
+.vk-preview {
+  display: block;
+  &-image {
+    width: 100%;
+    height: 173px;
+    object-fit: cover;
+    object-position: center center;
+    &-container {
+      height: 173px;
+      position: relative;
+      background-color: $white;
+    }
+    &-placeholder-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 60px;
+      transform: translate(-50%, -50%);
+      color: $white;
+    }
+  }
+  &-text-container {
+    border: 1px solid $text-container-black;
+    border-top: none;
+    margin-bottom: 20px;
+    padding: 10px 15px 11px;
+    background-color: $white;
+  }
+  &-title {
+    max-height: 42px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: $black;
+    text-decoration: none;
+    margin-bottom: 7px;
+  }
+  &-description {
+    display: inline-block;
+    max-width: 300px;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+    font-size: 13px;
+    line-height: 16px;
+    color: $content-grey;
+  }
+}

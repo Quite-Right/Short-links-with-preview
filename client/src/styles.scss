@@ -1,0 +1,15 @@
+@import "./colors";
+@import "./components/Main/styles.scss";
+@import "./components/Header/styles.scss";
+@import "./components/Footer/styles.scss";
+
+* {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.App {
+  // background-color: rgba(0, 55, 138, 0.12);
+  background-color: #fef7f5;
+}

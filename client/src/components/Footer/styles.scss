@@ -1,0 +1,23 @@
+.footer {
+  // position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: $orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.github-logo {
+  height: 40px;
+  padding-right: 10px;
+}
+
+.github-link {
+  display: flex;
+  align-items: center;
+  color: $white;
+  font-size: 24px;
+}

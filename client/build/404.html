@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+      .main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(https://source.unsplash.com/random);
+        background-size: cover;
+        background-position: center center;
+      }
+      .err-body {
+        background-color: #121212;
+        padding: 40px;
+        border-radius: 20px;
+      }
+
+      .err-code-container {
+        margin: auto;
+        width: fit-content;
+        display: flex;
+        text-align: center;
+      }
+
+      .err-code-digit {
+        font-size: 200px;
+        color: #ffffff;
+        font-family: Roboto;
+      }
+      .err-message {
+        font-family: Roboto;
+        font-size: 120px;
+        color: #ffffff;
+        text-align: center;
+      }
+      .err-more-info {
+        text-align: center;
+        display: block;
+        font-family: Roboto;
+        font-size: 24px;
+        color: #ffffff;
+        margin-bottom: 10px;
+      }
+      .err-solution {
+        text-align: center;
+        display: block;
+        font-family: Roboto;
+        font-size: 24px;
+        color: #ffffff;
+      }
+      .err-solution:hover {
+        color: #ff7940;
+      }
+      .err-solution:active {
+        color: #ff7940;
+      }
+      .err-solution:visited {
+        color: #ffffff;
+      }
+    </style>
+    <div class="main">
+      <div class="err-body">
+        <div class="err-code-container">
+          <div class="err-code-digit">4</div>
+          <div class="err-code-digit" style="color: #ff7940;">0</div>
+          <div class="err-code-digit">4</div>
+        </div>
+        <div class="err-message">Not Found</div>
+        <div class="err-more-info">
+          The page or content you are looking for does't exist.
+        </div>
+        <a class="err-solution" href="/">Return to the main page</a>
+      </div>
+    </div>
+  </body>
+</html>

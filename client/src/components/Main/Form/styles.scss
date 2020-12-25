@@ -1,0 +1,86 @@
+@import "./VKPreview/styles.scss";
+@import "./TGPreview/styles.scss";
+@import "./CopyBtn/styles.scss";
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  border: 1px solid $text-container-black;
+  padding-left: 5px;
+  font-size: 16px;
+  width: 285px;
+  height: 32px;
+  border-radius: 5px;
+  &:focus {
+    border: 2px solid $orange;
+    outline: none;
+    // outline: 1px solid $orange;
+  }
+}
+.label {
+  display: block;
+  min-width: 100px;
+  margin: auto 0px;
+}
+
+.form {
+  max-width: 387px;
+}
+.submit-btn {
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 2px;
+  border: none;
+  color: #ffffff;
+  outline: none;
+  background-color: $orange;
+  margin: 4px 4px;
+  cursor: pointer;
+  &:hover {
+    background-color: $orange-hover;
+  }
+  &:active {
+    background-color: $orange;
+  }
+  &:focus {
+    background-color: $orange-hover;
+  }
+}
+
+.link-actions-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+
+}
+.note-link {
+  color: $orange;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $orange;
+  }
+}
+.preview-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+@media all and (max-width: 460px) {
+  .input-group {
+    flex-direction: column;
+    // padding-bottom: 20px;
+    // border-bottom: 1px solid $light-grey;
+  }
+  .label {
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+}
